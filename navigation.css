@@ -1,0 +1,29 @@
+.logo {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__link {
+  cursor: pointer;
+}
+.nav__item:not(:last-child) {
+  padding-right: 44px;
+}
+.contact__btn {
+  background-color: #6030b1;
+  color: white !important;
+  padding: 14px 32px;
+  border-radius: 20px;
+}
+.contact__btn:hover {
+  background-color: #5d3eff;
+}
